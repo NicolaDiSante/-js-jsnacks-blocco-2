@@ -10,6 +10,21 @@ for(var i = 0; i < 5; i++){
   
 }
 
-  
+console.log(somma)
+ 
+ 
+
+var num = [];
+var somma = 0;
+var i = 1;
+
+while (i <= 5){
+  var altroNum = parseInt(prompt("Inserisci Numero"));
+  somma += altroNum;
+
   console.log(somma)
-//
+  i++;
+  
+}
+console.log(num)
+
